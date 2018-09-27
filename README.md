@@ -29,3 +29,27 @@ const piped = pipe(insert_,makeLouder,sayHello);
 console.log(composed('Mr.atom',"cyberBoT")); //=> Hello @ MR.ATOM_CYBERBOT!
 
 console.log(piped('Mr.atom',"cyberBoT")); //=> Hello @ MR.ATOM_CYBERBOT!'```
+
+
+### design Patterns in JS
+
+```javascript
+
+var techFactory = function(name,age){
+   
+   let tech = {}
+  
+   tech.name = name
+   tech.age = age
+   tech.printTech = function(){
+    print(this.name,this.age)
+   }
+   return tech
+
+}
+
+let tech1 = techFactory("React",5)
+let tech2 = techFactory("Angular",10)
+tech1.printTech(); //React 5
+tech2.printTech(); //Angular 10
+```
