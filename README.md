@@ -28,7 +28,8 @@ const piped = pipe(insert_,makeLouder,sayHello);
 
 console.log(composed('Mr.atom',"cyberBoT")); //=> Hello @ MR.ATOM_CYBERBOT!
 
-console.log(piped('Mr.atom',"cyberBoT")); //=> Hello @ MR.ATOM_CYBERBOT!'```
+console.log(piped('Mr.atom',"cyberBoT")); //=> Hello @ MR.ATOM_CYBERBOT!'
+```
 
 
 ### design Patterns in JS
