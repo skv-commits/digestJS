@@ -34,7 +34,6 @@ console.log(piped('Mr.atom',"cyberBoT")); //=> Hello @ MR.ATOM_CYBERBOT!'```
 ### design Patterns in JS
 
 ```javascript
-
 var techFactory = function(name,age){
    
    let tech = {}
