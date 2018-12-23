@@ -1,6 +1,6 @@
+#
 
-
-# digestJS
+## digestJS
 
 ### This will be collection of my JS tutorials
 
@@ -19,3 +19,5 @@
 #### using Closure with in a loop
 
 #### debouncing && throttling
+
+#### OOPs in traditional way and ES6+ way
