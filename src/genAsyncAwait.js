@@ -41,6 +41,8 @@ async function asyncFunc() {
     return data;
   } catch (error) {
     alert(error); // catches both errors
+  } finally {
+    console.log("execute the code here irrespective of success / error");
   }
 }
 
