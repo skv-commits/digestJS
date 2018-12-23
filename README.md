@@ -2,7 +2,7 @@
 
 # digestJS
 
-##This will be collection of my JS tutorials
+## This will be collection of my JS tutorials
 
 ### Immutable JS Sample
 
