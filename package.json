@@ -1,0 +1,21 @@
+{
+  "name": "digestJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cyberbot143/digestJS.git",
+  "author": "cyberbot143 <krishnasai952@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/decorators.js",
+    "build": "babel src --out-dir dist",
+    "serve": "node dist/server.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-decorators": "^7.2.3",
+    "@babel/preset-env": "^7.2.3",
+    "nodemon": "^1.18.3"
+  }
+}

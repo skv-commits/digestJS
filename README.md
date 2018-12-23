@@ -21,3 +21,5 @@
 #### debouncing && throttling
 
 #### OOPs in traditional way and ES6+ way
+
+#### TypeScript (In Progress)
