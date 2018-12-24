@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "target": "es5",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "allowJs": true
+    "allowJS": true
   },
   "include": ["*.ts"]
 }
