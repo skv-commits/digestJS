@@ -6,7 +6,7 @@
   "author": "cyberbot143 <krishnasai952@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec babel-node src/decorators.js",
+    "start": "nodemon --exec babel-node src/fpRamda.js",
     "build": "babel src --out-dir dist",
     "serve": "node dist/server.js"
   },
@@ -17,5 +17,8 @@
     "@babel/plugin-proposal-decorators": "^7.2.3",
     "@babel/preset-env": "^7.2.3",
     "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "ramda": "^0.26.1"
   }
 }
